@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@deamtest/ens-namehash@^1.0.5":
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/@deamtest/ens-namehash/-/ens-namehash-1.0.5.tgz#fdd7964494aa146c02904e887b3dbb5a0bb8c893"
-  integrity sha512-RGS9V/Kbj6gr7pcgP8JvPCrv5NgkDyyy+uBj5ZG15To05VP4RxcclEMBouawNBchrBWTqvN+yZKjtJbCpa4bkg==
+"@deamtest/ens-namehash@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@deamtest/ens-namehash/-/ens-namehash-1.0.6.tgz#80546ec0a92892b234fe570b332b64c4f96eda93"
+  integrity sha512-is3gtk8T8RJTASsXjjIOVpWWltL9nQ5712Fatv3Tvq3fgbshtvUo3NtevQ1oFYTcT2ZcIeZCk4xhD7/Q9yS3Jw==
   dependencies:
     "@oozcitak/util" "^8.3.9"
     idna-uts46-hx "^3.4.0"
