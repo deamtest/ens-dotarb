@@ -1,0 +1,52 @@
+{
+  "name": "@deamtest/ens-dotarb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/esm/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "ts-node node_modules/tape/bin/tape ./test/index.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deamtestlib/ens-dotarb.git"
+  },
+  "keywords": [
+    "deamtest",
+    "Ethereum",
+    "deamchain",
+    "ENS"
+  ],
+  "author": "leo pawel <galaxy85126@gmail.com> (https://deamtest.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deamtestlib/ens-dotarb/issues"
+  },
+  "homepage": "https://github.com/deamtestlib/ens-dotarb#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^8.3.2",
+    "@types/react": "*",
+    "@types/styled-components": "^5.1.25",
+    "@types/tape": "^4.13.2",
+    "rollup": "^2.73.0",
+    "rollup-plugin-dts": "^4.2.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2",
+    "tape": "^5.6.1",
+    "typescript": "^4.1.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@deamtest/ens-dotarb": "^1.0.5",
+    "ethers": "^5.7.2"
+  }
+}
